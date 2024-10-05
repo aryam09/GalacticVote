@@ -1,10 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<head>
+
 <meta charset="UTF-8">
 <title>Galactic Vote</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet" href="style.css">
-
+<script>
+    function addParagraph() {
+        const dropdown = document.getElementById("myDropdown");
+        const selectedValue = dropdown.options[dropdown.selectedIndex].value;
+        if (selectedValue === "IDneeded"){
+            content = "You need to bring identification"
+        } else{
+            content = "You should still bring identification, but you may not need to show it."
+        }
+        const paragraph = document.createElement("p");
+        paragraph.textContent = `${content}`;
+        document.getElementById("output").innerHTML = ""
+        document.getElementById("output").appendChild(paragraph);
+    }
+</script>
 <style>
     .collheader {
         background-color: #1F427F; 
@@ -14,8 +31,10 @@
         align-items: center;
         padding: 1rem;
     }
+
 </style>
-<script src=""></script>
+</head>
+
 <body>
     <div class = "navbar">
         
@@ -37,12 +56,26 @@
     <h2 style = "color: white; font-size: 3rem; text-align: right">Massachusetts In-State College Student</h2>
 </div>
 <p style = "font-size: 1.1rem">What school do you go to?</p>
-<select>
+<select style = "padding: 1.1rem">
     <option></option>
     <option value = "BU">BU</option>
-    <option value = "Northeastern">Northeastern</option>
 </select>
-<p 
+<p>BU Logistics to Vote:</p>
+<ul>
+    <li>Ward Number:	21</li>
+    <li>Precinct Number:	2</li>
+    <li>Facility Name:	BOSTON UNIVERSITY LIFE</li>
+    <li>Address:	SCIENCE AND ENGINEERING BUILDING - 24 CUMMINGTON MALL. VOTE IN CONFERENCE ROOM 103.</li>
+</ul>
+<p>What best describes your voting?</p>
+<select id = "myDropdown" onchange = "addParagraph()" style = "padding: 1.1rem">
+    <option></option>
+    <option value = "IDneeded">I am a first time voter/registered by mail</option>
+    <option value = "IDneeded">I am an infrequent voter</option>
+    <option value = "IDneeded">I am casting a challenged/provisional ballot</option>
+    <option value = "NoIDneeded">None of the above apply to me</option>
+</select>
+<div id="output"></div>
 
 </body>
 </html>
