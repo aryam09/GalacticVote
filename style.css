@@ -1,3 +1,38 @@
+
+
+.wrapper {
+    max-width: 2000px;
+    margin: 0 auto; 
+    padding: 20px;
+    /* background-color: #D4B2D8; */
+}
+
+.home {
+    display: flex; 
+    align-items: center; 
+    background-color: #EFCEFA;
+    padding: 20px; 
+    border-radius: 10px;
+    font-size:larger;
+}
+
+.home img {
+    margin-right: 20px; 
+}
+
+
+.button {
+    width: 60px; 
+    height: 60px;
+    border-radius: 90%; /* makes the button circular */
+    background-color: #D4B2D8; 
+    color: white; 
+    /* border: none;  */
+    font-size: 14px; 
+    cursor: pointer;
+    margin: 10px;
+}
+
 .navbar {
     list-style-type: none;
     display: flex;
@@ -39,3 +74,76 @@
     color: white;
     font-weight:bold;
 }
+
+
+main{
+    margin-top: 40px;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align:center;
+    
+}
+
+.pic{
+    display: flex;
+    height: 500px;
+    width: 400px;
+    position: relative;
+    top: 30px;
+  
+
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.Kamala{
+
+    background-color: rgb(107, 107, 255);
+    width: 400px;
+}
+
+
+.Trump{
+
+    background-color: rgb(255, 45, 45);
+    width: 400px;
+}
+
+.Candidates{
+    height: 100px;
+    object-fit: cover;
+    font-size: 100px;
+}
+
+.information{
+    font-size: 40px;
+    height: 400px;
+    width: 400px;
+}
+
+.bullet-points {
+    margin-top: 70px;
+    font-size: 30px;
+    width: 500px;
+    position: absolute;
+    top: 800px;
+    left: 150px;
+}
+
+.bullet-points2{
+    margin-top: 70px;
+    font-size: 30px;
+    width: 500px;
+    position: absolute;
+    top: 800px; 
+    right: 200px; 
+}
+
+ul li { padding: 6.5px 0px; }
+
