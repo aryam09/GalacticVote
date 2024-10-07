@@ -1,5 +1,9 @@
 # GalacticVote🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸
 Galactic Vote takes voting out of this world! Our website is meant to simplify the voting registration process by educating college students on how to vote, according to their status (in-state or out of state). 
+
+***NOTE***
+This web application was completed at the Spark! Mini Hackathon at Boston University and due to the time constraint of 8 hours, we wasn't able to advance it for a full capability, but we all tried our best and had fun :) 
+
 ##  Our Problem 
 **Voting in College is hard:**
 - Adulting for the First Time
@@ -23,15 +27,16 @@ Some of our team members are beginners to web-development and git so it was at h
 
 ## Pictures of our platform
 
-# Landing Page
+### Landing Page
 <img src="https://raw.githubusercontent.com/aryam09/GalacticVote/main/screenshotOne.png">
 
-# Candidate Page
+### Candidate Page
 <img src="https://raw.githubusercontent.com/aryam09/GalacticVote/main/screenshot_three.png">
 
-# InState Example
-<img src="https://raw.githubusercontent.com/aryam09/GalacticVote/main/screenshot_five.png">
-# Out Of State( Example: New York )
+### InState Example
+<img src="https://raw.githubusercontent.com/aryam09/GalacticVote/main/screenshot-five.png">
+
+### Out of State - ex: New York
 <img src="https://raw.githubusercontent.com/aryam09/GalacticVote/main/screenshot_four.png">
 
 
