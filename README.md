@@ -29,8 +29,12 @@ Some of our team members are beginners to web-development and git so it was at h
 # Candidate Page
 <img src="https://raw.githubusercontent.com/aryam09/GalacticVote/main/screenshot_three.png">
 
+# InState Example
+<img src="https://raw.githubusercontent.com/aryam09/GalacticVote/main/screenshot_five.png">
 # Out Of State( Example: New York )
 <img src="https://raw.githubusercontent.com/aryam09/GalacticVote/main/screenshot_four.png">
+
+
 
 
 
