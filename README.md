@@ -40,10 +40,10 @@ Some of our team members are beginners to web-development and git so it was at h
 <img src="https://raw.githubusercontent.com/aryam09/GalacticVote/main/screenshot_four.png">
 
 # Credits
-Brianna Matey - Sophomore at Boston University
-Iris Ren - Sophomore at Boston University
-Aryam Mebrahtu - Sophomore at Boston University
-Rianna James - Sophomore at Boston University
+- Brianna Matey - Sophomore at Boston University 🩷
+- Iris Ren - Sophomore at Boston University 💙
+- Aryam Mebrahtu - Sophomore at Boston University 💚
+- Rianna James - Sophomore at Boston University 🧡
 
 
 
